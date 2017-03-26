@@ -1,0 +1,116 @@
+/* ===== Primary Styles ========================================================
+   Author: Roy Duineveld
+   ========================================================================== */
+
+body {
+	min-width: 300px;
+}
+
+label {
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+h2 {
+	margin-bottom: 10px;
+}
+
+.hero-unit {
+	background: url(../img/header.png) no-repeat center top;
+}
+
+#amount1,.table td.align_right {
+	text-align: right;
+}
+
+#login_hide_password {
+	display: none;
+}
+
+#myCarousel .item {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+/*
+#what_is_li {
+	display: none;
+}
+*/
+
+#click_menu {
+	display: none;
+}
+
+#change_password {
+	display: none;
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+	.hero-unit h1 {
+		font-size: 25px;
+	}
+	/*
+	.hero-unit {
+		display: none;
+	}
+	#what_is_li {
+		display: block;
+	}
+	*/
+	.mobile-button {
+		display: block;
+		margin-bottom: 7px;
+		width: 100%;
+		font-weight: bold;
+		height: 35px;
+		margin-top: 7px;
+	}
+	.mobile-a-button {
+		display: block;
+		margin-bottom: 7px;
+		font-weight: bold;
+		height: 20px;
+		padding-top: 7px;
+	}
+	.mobile-label {
+		display: block;
+		font-size: 20px;
+		padding: 10px;
+	}
+}
+
+/* Tablet */
+@media (max-width: 767px) {
+	.hero-unit h1 {
+		font-size: 40px;
+	}
+	.input-prepend input, .input-append input, .input-prepend input[class*="span"], .input-append input[class*="span"] {
+		display: inline-block;
+		width: 60px;
+	}
+	h2 {
+		border-bottom: 1px solid #000;
+	}
+	.row .login_change {
+		border-top: 1px solid #000;
+		margin-top: 20px;
+		padding-top: 10px;
+	}
+	#click_menu {
+		display: block;
+		cursor: pointer;
+		margin-bottom: 10px;
+		font-weight: bold;
+		width: 100%;
+		text-align: right;
+		color: #d00010;
+	}
+	#click_menu img {
+		margin-left: 10px;
+	}
+	.mobile-a-button {
+		margin-bottom: 5px;
+	}
+}
