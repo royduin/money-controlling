@@ -17,6 +17,7 @@ The project is abandoned by me, so maybe someone is interested in it. Fork it an
 
 - Check all variables in the config files in `public/application/config/`
 - Import the database `database.sql`
+- Make sure `short_open_tag` is enabled, see: http://php.net/manual/en/ini.core.php#ini.short-open-tag
 
 ## Questions? Bugs?
 
